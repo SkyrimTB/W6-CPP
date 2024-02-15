@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 3.10)
+project(Lecture_5 CXX)
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(DistributedCounterTest1 DistributedCounterTest1.cpp)
+add_executable(DistributedCounterTest2 DistributedCounterTest2.cpp)
+add_executable(DistributedCounterTest3 DistributedCounterTest3.cpp)
+add_executable(DistributedCounterTest4 DistributedCounterTest4.cpp)
+add_executable(TestStack TestStack.cpp)
